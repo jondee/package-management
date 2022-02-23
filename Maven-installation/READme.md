@@ -30,6 +30,8 @@ git --version
 ``` sh
 #Step1) Download the Maven Software
 sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.zip
+wget https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz --no-check-certificate
+
 sudo unzip apache-maven-3.8.4-bin.zip
 sudo rm -rf apache-maven-3.8.4-bin.zip
 sudo mv apache-maven-3.8.4/ maven
